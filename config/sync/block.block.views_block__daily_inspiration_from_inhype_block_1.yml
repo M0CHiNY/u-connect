@@ -1,0 +1,29 @@
+uuid: 3605cb64-fa08-45c2-9a60-0f0f0c84adc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.daily_inspiration_from_inhype
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__daily_inspiration_from_inhype_block_1
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'views_block:daily_inspiration_from_inhype-block_1'
+settings:
+  id: 'views_block:daily_inspiration_from_inhype-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

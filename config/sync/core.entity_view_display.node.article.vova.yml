@@ -1,31 +1,41 @@
-uuid: 477e49e9-6f76-4652-994f-c0ed0495e0f8
+uuid: 41d8ae15-c560-44a4-942c-da7cb66f8d9f
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.rss
+    - core.entity_view_mode.node.vova
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_paragraph
     - field.field.node.article.field_tags
+    - image.style.wide
     - node.type.article
   module:
+    - image
     - user
 _core:
-  default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
-id: node.article.rss
+  default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
+id: node.article.vova
 targetEntityType: node
 bundle: article
-mode: rss
+mode: vova
 content:
-  links:
-    weight: 100
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   body: true
   comment: true
-  field_image: true
   field_paragraph: true
   field_tags: true
   langcode: true
+  links: true
