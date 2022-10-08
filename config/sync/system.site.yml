@@ -2,8 +2,8 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: bec69254-f075-4bdc-9bfd-20921f545e7e
-name: Drupal
-mail: ''
+name: my_blog
+mail: terebill2@gmail.com
 slogan: ''
 page:
   403: ''
