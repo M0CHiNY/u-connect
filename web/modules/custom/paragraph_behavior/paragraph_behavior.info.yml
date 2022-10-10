@@ -1,0 +1,7 @@
+name: Paragraph Behavior
+type: module
+description: Allows change paragraph custom setting
+package: my_blog
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:paragraphs
