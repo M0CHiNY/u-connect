@@ -21,7 +21,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles: null
-    negate: 0
+    negate: 1
     target_bundles_drag_drop:
       code:
         weight: -7
