@@ -1,22 +1,22 @@
-uuid: 3605cb64-fa08-45c2-9a60-0f0f0c84adc1
+uuid: 076b34a4-b53a-436a-9da7-c7a268e4d3cd
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.daily_inspiration_from_inhype
+    - views.view.test_view
   module:
     - system
     - views
   theme:
     - olivero
-id: views_block__daily_inspiration_from_inhype_block_1
+id: views_block__test_view_block_1
 theme: olivero
 region: hero
 weight: 0
 provider: null
-plugin: 'views_block:daily_inspiration_from_inhype-block_1'
+plugin: 'views_block:test_view-block_1'
 settings:
-  id: 'views_block:daily_inspiration_from_inhype-block_1'
+  id: 'views_block:test_view-block_1'
   label: ''
   label_display: visible
   provider: views
