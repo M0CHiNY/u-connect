@@ -14,3 +14,5 @@ behavior_plugins:
     enabled: true
   paragraph_begavior_images:
     enabled: true
+  paragraph_style_behavior:
+    enabled: true
