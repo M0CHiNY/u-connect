@@ -12,3 +12,5 @@ description: ''
 behavior_plugins:
   custom_classes:
     enabled: true
+  paragraph_style_behavior:
+    enabled: true
