@@ -1,0 +1,5 @@
+name: Blog navigation
+type: module
+description: Module add arrows to ne�xt and prev for entity
+package: my_blog
+core_version_requirement: ^9 || ^10
