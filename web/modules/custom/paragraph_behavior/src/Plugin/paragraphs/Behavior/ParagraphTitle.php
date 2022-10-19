@@ -52,6 +52,7 @@ class ParagraphTitle extends ParagraphsBehaviorBase {
    */
   public function buildBehaviorForm(ParagraphInterface $paragraph, array &$form, FormStateInterface $form_state): array
   {
+  
     $form['tags_title']=[
       '#type'=>'select',
       '#title'=>$this->t('change tags for title'),
@@ -64,6 +65,7 @@ class ParagraphTitle extends ParagraphsBehaviorBase {
       '#default_value' => $paragraph->getBehaviorSetting($this->getPluginId(), 'tags_title', 'div'),
     ];
     return $form;
+
   }
   /**
    * {@inheritdoc}
