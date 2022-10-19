@@ -52,18 +52,20 @@ class ParagraphTitle extends ParagraphsBehaviorBase {
    */
   public function buildBehaviorForm(ParagraphInterface $paragraph, array &$form, FormStateInterface $form_state): array
   {
-   $form['tags_title']=[
-     '#type'=>'select',
-     '#title'=>$this->t('change tags for title'),
-     '#options'=>[
-       'h2' => 'h2',
-       'h3' => 'h3',
-       'h4' => 'h4',
-       'div' => 'div',
-     ],
-     '#default_value' => $paragraph->getBehaviorSetting($this->getPluginId(), 'tags_title', 'div'),
-   ];
-   return $form;
+  
+    $form['tags_title']=[
+      '#type'=>'select',
+      '#title'=>$this->t('change tags for title'),
+      '#options'=>[
+        'h2' => 'h2',
+        'h3' => 'h3',
+        'h4' => 'h4',
+        'div' => 'div',
+      ],
+      '#default_value' => $paragraph->getBehaviorSetting($this->getPluginId(), 'tags_title', 'div'),
+    ];
+    return $form;
+
   }
   /**
    * {@inheritdoc}

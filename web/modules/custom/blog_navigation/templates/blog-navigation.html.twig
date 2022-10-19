@@ -1,0 +1,23 @@
+{% set bem_block = 'enity-block' %}
+<div {{ attributes.addClass(bem_block) }}>
+   <div class="{{ bem_block }}_prev">
+     {% if prev  %}
+       <a href="{{ prev.url }}" class="{{ bem_block }}_prev-link">
+         <span>
+           {{ 'prev' |t }}
+           {{ prev.label }}
+         </span>
+       </a>
+     {% endif %}
+   </div>
+  <div class="{{ bem_block }}_next">
+    {% if next  %}
+      <a href="{{ next.url }}" class="{{ bem_block }}_next-link">
+         <span>
+           {{ 'next' |t }}
+           {{ next.label }}
+         </span>
+      </a>
+    {% endif %}
+  </div>
+</div>

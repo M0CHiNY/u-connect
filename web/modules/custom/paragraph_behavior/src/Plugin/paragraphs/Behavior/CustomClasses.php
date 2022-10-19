@@ -33,7 +33,6 @@ class CustomClasses extends ParagraphsBehaviorBase {
     foreach ($getClasses as $class){
       $build['#attributes']['class'][] = 'paragraph-class--'.$class;
     }
-
   }
 
   /**
