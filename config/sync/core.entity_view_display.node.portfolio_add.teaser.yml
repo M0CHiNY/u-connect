@@ -1,0 +1,24 @@
+uuid: 80bf68c7-7f9c-4871-8333-2c20ae3c09fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfolio_add.field_images
+    - field.field.node.portfolio_add.field_link
+    - node.type.portfolio_add
+  module:
+    - user
+id: node.portfolio_add.teaser
+targetEntityType: node
+bundle: portfolio_add
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_images: true
+  field_link: true
