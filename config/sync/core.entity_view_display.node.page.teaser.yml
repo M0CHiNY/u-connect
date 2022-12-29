@@ -1,4 +1,4 @@
-uuid: 7bb73c15-7104-4ce3-996d-704d16223bcc
+uuid: aef77968-1e09-4a72-a610-766bf5d2c258
 langcode: en
 status: true
 dependencies:
@@ -27,5 +27,4 @@ content:
   links:
     weight: 101
     region: content
-hidden:
-  langcode: true
+hidden: {  }

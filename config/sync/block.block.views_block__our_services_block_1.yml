@@ -1,0 +1,29 @@
+uuid: 8ab8ec67-b206-4d87-91dc-88b071dfc18c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_services
+  module:
+    - system
+    - views
+  theme:
+    - gin
+id: views_block__our_services_block_1
+theme: gin
+region: pre_content
+weight: -4
+provider: null
+plugin: 'views_block:our_services-block_1'
+settings:
+  id: 'views_block:our_services-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

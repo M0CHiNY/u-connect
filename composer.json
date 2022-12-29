@@ -22,6 +22,7 @@
         "drupal/adminimal_theme": "^1.6",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/gin": "^3.0@RC",
         "drupal/paragraphs": "^1.15",
         "drush/drush": "^11.0",
         "vlucas/phpdotenv": "^5.1",
