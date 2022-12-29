@@ -1,0 +1,46 @@
+uuid: 3406eb1b-1e44-4258-b6ed-523fccefed9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio_add.field_images
+    - field.field.node.portfolio_add.field_link
+    - node.type.portfolio_add
+  module:
+    - link
+    - media
+    - user
+id: node.portfolio_add.default
+targetEntityType: node
+bundle: portfolio_add
+mode: default
+content:
+  field_images:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
