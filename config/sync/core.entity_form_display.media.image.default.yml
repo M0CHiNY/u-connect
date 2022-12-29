@@ -1,4 +1,4 @@
-uuid: 6696f826-55a5-4611-9173-a1d94c529bf2
+uuid: cb235f56-f468-4c44-b2e7-b8bc9495ea27
 langcode: en
 status: true
 dependencies:
@@ -29,13 +29,6 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path
