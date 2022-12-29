@@ -22,3 +22,4 @@ content:
 hidden:
   field_images: true
   field_link: true
+  langcode: true

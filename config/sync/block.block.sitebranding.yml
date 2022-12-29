@@ -1,0 +1,23 @@
+uuid: c5778c23-459b-44aa-a14b-bd4dc06a2bb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gin
+id: sitebranding
+theme: gin
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: u-connect
+  label_display: visible
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
